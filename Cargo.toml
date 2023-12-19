@@ -83,7 +83,7 @@ ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "46cb7f9519e
 #ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
 #ethers-solc = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
 
-solang-parser = "=0.3.1"
+solang-parser = "=0.3.2"
 
 #[patch."https://github.com/gakonst/ethers-rs"]
 #ethers = { path = "../ethers-rs/ethers" }
