@@ -61,30 +61,30 @@ panic = "abort"
 codegen-units = 1
 
 [workspace.dependencies]
-ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
-ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
+#ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "d587981247af2286b413396c1d33601745d4723f" }
 
 solang-parser = "=0.3.1"
 
 #[patch."https://github.com/gakonst/ethers-rs"]
-#ethers = { path = "../ethers-rs/ethers" }
-#ethers-addressbook = { path = "../ethers-rs/ethers-addressbook" }
-#ethers-contract = { path = "../ethers-rs/ethers-contract" }
-#ethers-contract-abigen = { path = "../ethers-rs/ethers-contract/ethers-contract-abigen" }
-#ethers-core = { path = "../ethers-rs/ethers-core" }
-#ethers-etherscan = { path = "../ethers-rs/ethers-etherscan" }
-#ethers-middleware = { path = "../ethers-rs/ethers-middleware" }
-#ethers-providers = { path = "../ethers-rs/ethers-providers" }
-#ethers-signers = { path = "../ethers-rs/ethers-signers" }
-#ethers-solc = { path = "../ethers-rs/ethers-solc" }
+ethers = { path = "../ethers-rs/ethers" }
+ethers-addressbook = { path = "../ethers-rs/ethers-addressbook" }
+ethers-contract = { path = "../ethers-rs/ethers-contract" }
+ethers-contract-abigen = { path = "../ethers-rs/ethers-contract/ethers-contract-abigen" }
+ethers-core = { path = "../ethers-rs/ethers-core" }
+ethers-etherscan = { path = "../ethers-rs/ethers-etherscan" }
+ethers-middleware = { path = "../ethers-rs/ethers-middleware" }
+ethers-providers = { path = "../ethers-rs/ethers-providers" }
+ethers-signers = { path = "../ethers-rs/ethers-signers" }
+ethers-solc = { path = "../ethers-rs/ethers-solc" }
 
 [patch.crates-io]
 revm = { git = "https://github.com/bluealloy/revm/", branch = "release/v25" }
