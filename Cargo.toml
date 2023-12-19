@@ -61,16 +61,16 @@ panic = "abort"
 codegen-units = 1
 
 [workspace.dependencies]
-ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
-ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "738071d1f5b7bde55d030624af311ca3935a4b23" }
+ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
+ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "594627dc1c3b490ba8f513f8f5e23d11448cbcf8" }
 
 solang-parser = "=0.3.1"
 
