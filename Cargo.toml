@@ -61,16 +61,16 @@ panic = "abort"
 codegen-units = 1
 
 [workspace.dependencies]
-ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
-ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "030bf439a100dcacd2e968e3114de0612229056b" }
+ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
+ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "8082aa862619b746c14122d9e479cc0542aadb3c" }
 
 #ethers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
 #ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
