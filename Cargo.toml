@@ -107,16 +107,27 @@ codegen-units = 16
 package = {}
 
 [workspace.dependencies]
-ethers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-contract = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-providers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-signers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-solc = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "5145992e4b03fdaebcc4d35aa7ee44504ca82b5a" }
+
+#ethers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-core = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-contract = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-providers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-signers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+#ethers-solc = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
 
 chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
 solang-parser = "=0.3.1"
