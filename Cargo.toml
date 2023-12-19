@@ -125,16 +125,16 @@ foundry-test-utils = { path = "crates/test-utils" }
 foundry-utils = { path = "crates/utils" }
 ui = { path = "crates/ui" }
 
-ethers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-contract = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-providers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-signers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-solc = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-addressbook = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
+ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "ade111281604ee1e5bb304d554d2618d8ea8b411" }
 
 chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
 hex = { package = "const-hex", version = "1.6", features = ["hex"] }
